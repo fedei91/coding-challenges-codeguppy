@@ -15,4 +15,4 @@ function fibonacci() {
     }
 }
 
-console.log(fibonacci(10));
+fibonacci();
