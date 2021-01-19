@@ -19,11 +19,9 @@ f(n);
 
 function f(n) {
     if (n === 0 || n === 1) {
-      return n;
+        return n;
     }
-    
     return f(n - 2) + f(n - 1);
-  }
+}
 
-  console.log(f(n));
-  
+console.log(f(n));
