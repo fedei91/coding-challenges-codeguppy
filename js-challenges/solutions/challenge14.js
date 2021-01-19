@@ -2,10 +2,9 @@
 
 //Reminder: Fn = Fn-2 + Fn-1
 
-const f0 = 0;
-const f1 = 1; 
+let f0 = 0;
+let f1 = 1; 
 const termsToCalculate = 10;
-let firstTenNumbers = [];
 
 function fibonacci() {
     for (i=0; i<termsToCalculate; i++) {
